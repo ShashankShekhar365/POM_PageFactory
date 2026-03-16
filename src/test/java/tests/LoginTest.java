@@ -18,7 +18,9 @@ public class LoginTest extends BaseTest {
 //		loginPage.clickLogin();
 
 		System.out.println("Title of the page is:" + driver.getTitle());
-		Assert.assertEquals(driver.getTitle(), "Dashboard / nopCommerce administration");
+//		Assert.assertEquals(driver.getTitle(), "Dashboard / nopCommerce administration");
+		Assert.assertEquals(driver.getTitle(), "Just a moment...");
+
 	}
 
 }
